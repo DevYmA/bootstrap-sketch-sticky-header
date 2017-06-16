@@ -1,0 +1,49 @@
+/*
+  Scrolling navigation bar
+  Yoshan Amarathunga
+*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+html,
+body{
+    font-family: 'Open Sans',sans-serif;
+    height: 100%;
+}
+
+
+.navbar-custom .nav > li > a:hover{
+   color: red;
+}
+
+
+a.active {
+  border-bottom: 2px solid blue;
+}
+
+.cover-section{
+    height: 100%;
+    padding-top: 150px;
+    background-color: #e6e6e6;
+    text-align: center;
+}
+
+.first-section{
+    height: 100%;
+    padding-top: 150px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.second-section{
+    height: 100%;
+    padding-top: 150px;
+    background: #e6e6e6;
+    text-align: center;
+}
+
+.third-section{
+    height: 100%;
+    padding-top: 150px;
+    background-color: #ffffff;
+    text-align: center;
+}
